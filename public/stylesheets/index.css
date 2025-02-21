@@ -1,0 +1,64 @@
+body {
+  background-color: #dddddd;
+  /* background-color: #024950;  */
+}
+
+a {
+  text-decoration: none;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  color: forestgreen;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
+#cluster-map {
+  /* Set a fixed height for the map container */
+  border: 1px solid #ccc; /* Add border to map container */
+  border-radius: 10px; /* Rounded corners for map container */
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-head h6 {
+  margin-right: 15px;
+  background-color: #9dde8b;
+  border-radius: 5px;
+  padding: 6px;
+  color: #577B8D;
+}
+
+.card {
+  border: none;
+  background-color: #eeeeee;
+  transition: transform 0.3s ease; /* Add smooth transition */
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up the element on hover */
+}
+
+img {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  min-height: 100%;
+}
+
+.salute {
+  margin-top: -30px;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
